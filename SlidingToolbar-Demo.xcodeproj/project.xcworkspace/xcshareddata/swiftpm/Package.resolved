@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SlidingToolbar",
+        "repositoryURL": "https://github.com/hakkabon/SlidingToolbar.git",
+        "state": {
+          "branch": null,
+          "revision": "cba16e78e95dc3b9d1ca701a71313f268bd3e938",
+          "version": "1.0.5"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

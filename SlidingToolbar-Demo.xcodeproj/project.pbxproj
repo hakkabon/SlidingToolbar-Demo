@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A253C3672525B4C200434CAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A253C3662525B4C200434CAD /* AppDelegate.swift */; };
+		A253C3692525B4C200434CAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A253C3682525B4C200434CAD /* SceneDelegate.swift */; };
+		A253C36B2525B4C200434CAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A253C36A2525B4C200434CAD /* ViewController.swift */; };
+		A253C36E2525B4C200434CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A253C36C2525B4C200434CAD /* Main.storyboard */; };
+		A253C3702525B4C300434CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A253C36F2525B4C300434CAD /* Assets.xcassets */; };
+		A253C3732525B4C300434CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A253C3712525B4C300434CAD /* LaunchScreen.storyboard */; };
+		A253C37D2525B5DF00434CAD /* ColorTraits.swift in Sources */ = {isa = PBXBuildFile; fileRef = A253C37C2525B5DF00434CAD /* ColorTraits.swift */; };
+		A253C3822525B64800434CAD /* SlidingToolbar in Frameworks */ = {isa = PBXBuildFile; productRef = A253C3812525B64800434CAD /* SlidingToolbar */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A253C3632525B4C200434CAD /* SlidingToolbar-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SlidingToolbar-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A253C3662525B4C200434CAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A253C3682525B4C200434CAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A253C36A2525B4C200434CAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A253C36D2525B4C200434CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A253C36F2525B4C300434CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A253C3722525B4C300434CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A253C3742525B4C300434CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A253C37C2525B5DF00434CAD /* ColorTraits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTraits.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A253C3602525B4C200434CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A253C3822525B64800434CAD /* SlidingToolbar in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A253C35A2525B4C200434CAD = {
+			isa = PBXGroup;
+			children = (
+				A253C3652525B4C200434CAD /* SlidingToolbar-Demo */,
+				A253C3642525B4C200434CAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A253C3642525B4C200434CAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A253C3632525B4C200434CAD /* SlidingToolbar-Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A253C3652525B4C200434CAD /* SlidingToolbar-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				A253C3662525B4C200434CAD /* AppDelegate.swift */,
+				A253C3682525B4C200434CAD /* SceneDelegate.swift */,
+				A253C37C2525B5DF00434CAD /* ColorTraits.swift */,
+				A253C36A2525B4C200434CAD /* ViewController.swift */,
+				A253C36C2525B4C200434CAD /* Main.storyboard */,
+				A253C36F2525B4C300434CAD /* Assets.xcassets */,
+				A253C3712525B4C300434CAD /* LaunchScreen.storyboard */,
+				A253C3742525B4C300434CAD /* Info.plist */,
+			);
+			path = "SlidingToolbar-Demo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A253C3622525B4C200434CAD /* SlidingToolbar-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A253C3772525B4C300434CAD /* Build configuration list for PBXNativeTarget "SlidingToolbar-Demo" */;
+			buildPhases = (
+				A253C35F2525B4C200434CAD /* Sources */,
+				A253C3602525B4C200434CAD /* Frameworks */,
+				A253C3612525B4C200434CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SlidingToolbar-Demo";
+			packageProductDependencies = (
+				A253C3812525B64800434CAD /* SlidingToolbar */,
+			);
+			productName = "SlidingToolbar-Demo";
+			productReference = A253C3632525B4C200434CAD /* SlidingToolbar-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A253C35B2525B4C200434CAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					A253C3622525B4C200434CAD = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = A253C35E2525B4C200434CAD /* Build configuration list for PBXProject "SlidingToolbar-Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A253C35A2525B4C200434CAD;
+			packageReferences = (
+				A253C3802525B64800434CAD /* XCRemoteSwiftPackageReference "SlidingToolbar" */,
+			);
+			productRefGroup = A253C3642525B4C200434CAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A253C3622525B4C200434CAD /* SlidingToolbar-Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A253C3612525B4C200434CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A253C3732525B4C300434CAD /* LaunchScreen.storyboard in Resources */,
+				A253C3702525B4C300434CAD /* Assets.xcassets in Resources */,
+				A253C36E2525B4C200434CAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A253C35F2525B4C200434CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A253C36B2525B4C200434CAD /* ViewController.swift in Sources */,
+				A253C3672525B4C200434CAD /* AppDelegate.swift in Sources */,
+				A253C37D2525B5DF00434CAD /* ColorTraits.swift in Sources */,
+				A253C3692525B4C200434CAD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A253C36C2525B4C200434CAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A253C36D2525B4C200434CAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A253C3712525B4C300434CAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A253C3722525B4C300434CAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A253C3752525B4C300434CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A253C3762525B4C300434CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A253C3782525B4C300434CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y664K87F2L;
+				INFOPLIST_FILE = "SlidingToolbar-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hakkabon.SlidingToolbar-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A253C3792525B4C300434CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y664K87F2L;
+				INFOPLIST_FILE = "SlidingToolbar-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hakkabon.SlidingToolbar-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A253C35E2525B4C200434CAD /* Build configuration list for PBXProject "SlidingToolbar-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A253C3752525B4C300434CAD /* Debug */,
+				A253C3762525B4C300434CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A253C3772525B4C300434CAD /* Build configuration list for PBXNativeTarget "SlidingToolbar-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A253C3782525B4C300434CAD /* Debug */,
+				A253C3792525B4C300434CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A253C3802525B64800434CAD /* XCRemoteSwiftPackageReference "SlidingToolbar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hakkabon/SlidingToolbar.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A253C3812525B64800434CAD /* SlidingToolbar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A253C3802525B64800434CAD /* XCRemoteSwiftPackageReference "SlidingToolbar" */;
+			productName = SlidingToolbar;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A253C35B2525B4C200434CAD /* Project object */;
+}
